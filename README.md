@@ -5,7 +5,7 @@ Security_Hardening_GPOs.zip file includes two exported GPOs. Extract it.
 
 To import, launch Group Policy Management Console (gpmc.msc).  Create a blank new Group Policy Object, then right click on it and choose Import Settings, select the extracted folder.
   
-Security Hardening I should be applied to all systems and allowed ample time to bake in before applying Security Hardening II, since I is a prerequisite.  BE CAREFUL, I enables SMB Signing, and II makes SMB signing a requirement.  If I is not applied before II, group policy will fail to apply.
+Security Hardening I should be applied to all systems and allowed ample time to bake in before applying Security Hardening II, since I is a prerequisite.  BE CAREFUL, Part I enables SMB Signing, and Part II makes SMB signing a requirement.  If I is not applied before II, group policy may fail to apply on some systems.  You could brick your entire organization.
 
 As always, settings may cause issues with legacy and third party operating systems.  Please test!
 
