@@ -1,7 +1,7 @@
 # Group-Policy-Hardening
 Two Group Policy Objects to apply to your domain in order to disable dangerous AD defaults that are often used to escalate privileges.
 
-Zip file includes two exported GPOs. Extract it.
+Security_Hardening_GPOs.zip file includes two exported GPOs. Extract it.
 
 To import, launch Group Policy Management Console (gpmc.msc).  Create a blank new Group Policy Object, then right click on it and choose Import Settings, select the extracted folder.
   
